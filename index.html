@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en" data-theme="cupcake" >
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -39,7 +39,7 @@
     </style>
   </head>
   <body>
-    <header class="container mx-auto">
+    <header class="container mx-auto my-14">
       <!-- nav section -->
       <div class="bg-none lg:bg-[#F85559] rounded-full text-white">
         <div class="flex flex-row-reverse px-5 lg:flex-row justify-between items-center my-12 mx-auto py-3">
@@ -154,7 +154,7 @@
 
         <!-- fruit list -->
         <div class="hidden md:flex flex-col justify-center items-center w-full px-4 md:px-8 absolute">
-          <div class="flex w-full justify-between bg-white -mt-24 mr-10 md:ml-16 p-2 rounded-lg">
+          <div class="flex w-full justify-between bg-white -mt-24 mr-10 md:ml-16  p-2 rounded-lg">
             <div>
               <img src="./B8A3-fruit-brust/images/fruit1.png" alt="">
               <p class="text-center text-[#121212CC] text-xl font-medium">Grape</p>
@@ -176,6 +176,106 @@
               <p class="text-center text-[#121212CC] text-xl font-medium">Pomegranate</p>
             </div>
           </div>
+        </div>
+        </section>
+
+        <!-- deal of the day -->
+        <section class="mt-36">
+            <!-- title -->
+            <div class="flex flex-col lg:flex-row justify-between  items-center">
+            <div>
+            <h3 class="text-[#121212] font-extrabold text-center  lg:text-left lg:text-5xl mb-6">
+              Deal of the day
+            </h3>
+            <p class="text-[#12121299] font-medium text-center w-full  mb-5 lg:text-left text-base lg:w-2/4">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+          </div>
+          <!-- countdown -->
+          <div>
+            <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+              <div class="flex flex-col">
+                <span class="countdown font-mono text-5xl">
+                  <span style="--value:15;"></span>
+                </span>
+                days
+              </div>
+              <div class="flex flex-col">
+                <span class="countdown font-mono text-5xl">
+                  <span style="--value:10;"></span>
+                </span>
+                hours
+              </div>
+              <div class="flex flex-col">
+                <span class="countdown font-mono text-5xl">
+                  <span style="--value:24;"></span>
+                </span>
+                min
+              </div>
+              <div class="flex flex-col">
+                <span class="countdown font-mono text-5xl">
+                  <span style="--value:38;"></span>
+                </span>
+                sec
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col lg:flex-row mt-12  justify-center items-center gap-6">
+          <!-- apples -->
+          <div class="w-80 h-[477px] flex flex-col justify-center items-center border border-[#1212121A] rounded-lg">
+            <img class="mb-12 mt-5" src="./B8A3-fruit-brust/images/fruit6.png" alt="">
+            <h3 class="text-[#121212] font-extrabold text-base mb-12" >12.90$ - 18.85$</h3>
+            <p class="mb-12 border-t border-gray-400 border-l-none border-b-none border-r-none">Apples</p>
+            <div class="rating mb-10">
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            </div>
+            <p class="mb-12 text-lg  font-bold cursor-pointer text-[#F85559]">Details</p>
+          </div>
+          <div class="w-80 h-[477px] flex flex-col justify-center items-center border border-[#1212121A] rounded-lg">
+            <img class="mb-12 mt-5" src="./B8A3-fruit-brust/images/fruit7.png" alt="">
+            <h3 class="text-[#121212] font-extrabold text-base mb-12" >12.90$ - 18.85$</h3>
+            <p class="mb-12 border-t border-gray-400 border-l-none border-b-none border-r-none">Orange</p>
+            <div class="rating mb-10">
+              <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" checked />
+              <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" />
+            </div>
+            <p class="mb-12 text-lg  font-bold cursor-pointer text-[#F85559]">Details</p>
+          </div>
+          <div class="w-80 h-[477px] flex flex-col justify-center items-center border border-[#1212121A] rounded-lg">
+            <img class="mb-12 mt-5" src="./B8A3-fruit-brust/images/fruit8.png" alt="">
+            <h3 class="text-[#121212] font-extrabold text-base mb-12" >12.90$ - 18.85$</h3>
+            <p class="mb-12 border-t border-gray-400 border-l-none border-b-none border-r-none">Red Dragon</p>
+            <div class="rating mb-10">
+              <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" checked />
+              <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
+            </div>
+            <p class="mb-12 text-lg  font-bold cursor-pointer text-[#F85559]">Details</p>
+          </div>
+          <div class="w-80 h-[477px] flex flex-col justify-center items-center border border-[#1212121A] rounded-lg">
+            <img class="mb-12 mt-5" src="./B8A3-fruit-brust/images/fruit9.png" alt="">
+            <h3 class="text-[#121212] font-extrabold text-base mb-12" >12.90$ - 18.85$</h3>
+            <p class="mb-12 border-t border-gray-400 border-l-none border-b-none border-r-none">Banana</p>
+            <div class="rating mb-10">
+              <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" checked />
+              <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+            </div>
+            <p class="mb-12 text-lg  font-bold cursor-pointer text-[#F85559]">Details</p>
+          </div>
+        </div>
+        <div>
+          <button class="flex px-14 py-5 mt-12 mx-auto text-white font-extrabold text-sm bg-[#F85559] justify-center items-center rounded-lg">Shop All</button>
         </div>
 
         </section>
